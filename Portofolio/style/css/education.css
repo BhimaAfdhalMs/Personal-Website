@@ -1,0 +1,91 @@
+:root{
+    --bg-color: #4C585B;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #7E99A3;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'popins', sans-serif;;
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: transparent;
+    align-items: center;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .3s;
+    font-family: 'popins', sans-serif;
+    margin-right: 15%;
+    color: var(--bg-color);
+}
+
+.navbar a{
+    padding-left: 20px;
+    color: #fff;
+}
+
+.navbar a:hover{
+color: var(--main-color);
+}
+
+span{
+    color: var(--main-color);
+ }
+
+.header .heading {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.img-class{
+    align-items: center;  
+    position: relative;
+    gap: 5rem;
+    margin-top: 70px;
+}
+
+.imgdic{
+    height: 350px;
+    width: 550px;
+    margin-right: 50px;
+    margin-left: 30PX;
+}
+
+.imgk3{
+    height: 350px;
+    width: 550px;
+}
+
+.ImgJs{
+    height: 350px;
+    width: 550px;
+    margin-left: 25%;
+}

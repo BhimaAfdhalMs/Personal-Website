@@ -1,0 +1,113 @@
+:root{
+    --bg-color: #4C585B;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #7E99A3;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'popins', sans-serif;;
+}
+
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: transparent;
+    align-items: center;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight:300;
+}
+
+.navbar{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .3s;
+    font-family: 'popins', sans-serif;
+    margin-right: 15%;
+}
+
+.navbar a{
+    padding-left: 20px;
+    color: #fff;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+}
+    .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--bg-color);
+    padding-bottom: 6rem;
+    }
+
+    .about-content{
+    font-size: 15px;
+    }
+
+    span{
+    color: var(--main-color);
+    }
+
+    .heading {
+    font-size: 35px;
+    }
+    
+    .about-img{
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .about-img img {
+    width: 90%;
+    border-radius: 50%;
+    border: .2rem solid var(--main-color);
+    }
+
+    .about-img .circle-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: .2rem solid var(--bg-color);
+    border-bottom: .2rem solid var(--bg-color);
+    border-left: .2rem solid var(--main-color);
+    border-right: .2rem solid var(--main-color);
+    }
+
+    .about-content {
+    text-align: center;
+    }
+
+    .about-content h2{
+    font-size: 2.6rem;
+    }
